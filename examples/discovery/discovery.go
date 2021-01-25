@@ -6,10 +6,10 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/muka/go-bluetooth/api"
-	"github.com/muka/go-bluetooth/api/beacon"
-	"github.com/muka/go-bluetooth/bluez/profile/adapter"
-	"github.com/muka/go-bluetooth/bluez/profile/device"
+	"go-bluetooth/api"
+	"go-bluetooth/api/beacon"
+	"go-bluetooth/bluez/profile/adapter"
+	"go-bluetooth/bluez/profile/device"
 	log "github.com/sirupsen/logrus"
 	eddystone "github.com/suapapa/go_eddystone"
 )
